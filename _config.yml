@@ -2,11 +2,11 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://chenjx85.github.io/
 date_format: "ordinal"
-title: 512
-subtitle: "三维视觉"
-description: "陈家鑫的个人博客"
+title: chenjx85的个人博客
+subtitle: ""
+description: "chenjx85的个人博客"
 keywords: jiaxinchen, chenjiaxin, chenjx, 陈家鑫
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -37,13 +37,13 @@ navs:
 #     href: /archives/
 #     label: 归档
 
-  -
-    href: /wiki/
-    label: 维基
+#  -
+#    href: /wiki/
+#    label: 维基
 
   -
-    href: /links/
-    label: 链接
+#    href: /links/
+#    label: 链接
 
   -
     href: /about/
@@ -80,7 +80,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: chenjx85/chenjx85.github.io
 
 # ---------------- #
 #      Comments    #
