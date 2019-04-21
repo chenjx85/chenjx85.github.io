@@ -2,19 +2,19 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://chenjx85.github.io/
+url: https://chenjx85.github.io
 date_format: "ordinal"
-title: chenjx85的个人博客
-subtitle: ""
+title: 陈家鑫
+subtitle: "生命中的每一天都弥足珍贵"
 description: "chenjx85的个人博客"
-keywords: jiaxinchen, chenjiaxin, chenjx, 陈家鑫
+keywords: ai, 三维视觉, chenjx, 陈家鑫
 encoding: "utf-8"
-side_bar_repo_limit: 5
+side_bar_repo_limit: 3
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Jiaxin Chen
+author: 陈家鑫
 organization: 
 organization_url: 
 github_username: chenjx85
@@ -41,7 +41,7 @@ navs:
 #    href: /wiki/
 #    label: 维基
 
-  -
+#  -
 #    href: /links/
 #    label: 链接
 
