@@ -1,124 +1,63 @@
-# ---------------- #
-#   Main Configs   #
-# ---------------- #
-baseurl:
-url: https://chenjx85.github.io
-date_format: "ordinal"
-title: 陈家鑫
-subtitle: "生命中的每一天都弥足珍贵"
-description: "chenjx85的个人博客"
-keywords: ai, 三维视觉, chenjx, 陈家鑫
-encoding: "utf-8"
-side_bar_repo_limit: 3
+# Site settings
+title: 博客名字 # 你的博客名字，可以定义修订
+header-img: "img/green.jpg"
+tagline: "cn"  
+description: "这是我的博客"  # 一句话描述你的博客
+baseurl: ""
+url: "http://cnfeat"  # 此处填写你的博客地址 
 
-# ---------------- #
-#      Author      #
-# ---------------- #
-author: 陈家鑫
-organization: 
-organization_url: 
-github_username: chenjx85
-location: Guangzhou, China
-email: chenjxworking@gmail.com
+# About/contact
+owner: 
+  name: "作者名字" # 填写作者信息：名字
+  email: X@gmail.com # 填写作者信息：邮箱
+  bio: "你的博客描述" # 填写作者信息：博客描述
 
-# ---------------- #
-#    Navigation    #
-# ---------------- #
-navs:
-  -
-    href: /
-    label: 首页
+# Data
+gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
-  -
-    href: /categories/
-    label: 分类
+douban_username:  # 你的豆瓣id
+twitter_username: 
+github_username: 
+facebook_username: 
+weibo_username: 
+zhihu_username: 
 
-#   -
-#     href: /archives/
-#     label: 归档
-
-#  -
-#    href: /wiki/
-#    label: 维基
-
-#  -
-#    href: /links/
-#    label: 链接
-
-  -
-    href: /about/
-    label: 关于
-
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
-
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
-kramdown:
-    input: GFM
 highlighter: rouge
-paginate: 10
-lsi: false
-quiet: false
-excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
-gems:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
-collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-repository: chenjx85/chenjx85.github.io
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: 
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "你的名字" # 你的名字
+      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# ---------------- #
-#      Search      #
-# ---------------- #
-simple_jekyll_search:
-    # 是否支持全文搜索
-    fulltext: false
-    # 最多显示多少条搜索结果
-    limit: 10
+# Comments 
+comments :
+  provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
+  duoshuo :
+    short_name :  # 填写你的 disqus id
+  disqus :
+      short_name :  # 填写你的 disqus id
 
-# ---------------- #
-#    Analytics     #
-# ---------------- #
-google:
-    analytics_id: UA-80669434-1
+# Analytics and webmaster tools stuff goes here
+google_analytics:  # 填写你  google_analytics id
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
