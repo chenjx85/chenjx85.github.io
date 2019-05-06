@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "About"
-description: "你的博客描述 " 
+description: "" 
 header-img: "img/green.jpg"
 ---
 
-这一页填写你的自我介绍。
+计算机视觉工程师一枚，主要方向是双目视觉，中山大学毕业生
 
 
 
