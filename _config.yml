@@ -1,6 +1,6 @@
 # Site settings
 title: 济沧海 # 你的博客名字，可以定义修订
-header-img: "img/blue.jpg"
+header-img: "img/twitter.jpg"
 tagline: "cn"  
 description: "这是我的博客"  # 一句话描述你的博客
 baseurl: ""
@@ -16,12 +16,12 @@ owner:
 gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
-douban_username:  # 你的豆瓣id
-twitter_username: 
-github_username: 
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+#douban_username:  # 你的豆瓣id
+#twitter_username: 
+#github_username: 
+#facebook_username: 
+#weibo_username: 
+#zhihu_username: 
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "chenjx85" # 你的名字
-      header-img: "img/zhihu.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/twitter.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
