@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tags"
+title: "cjx"
 description: "文章标签"  
 header-img: "img/semantic.jpg"  
 ---
