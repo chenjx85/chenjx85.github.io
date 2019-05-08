@@ -5,7 +5,7 @@ tagline: "cn"
 description: "这是我的博客"  # 一句话描述你的博客
 baseurl: ""
 url: "https://chenjx85.github.io"  # 此处填写你的博客地址 
-
+encoding: 'utf-8'
 # About/contact
 owner: 
   name: "chenjx85" # 填写作者信息：名字
