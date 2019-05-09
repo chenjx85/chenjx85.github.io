@@ -2,7 +2,7 @@
 layout: post
 title: github构建博客的解决方案
 date: 2019-05-09
-categories: 各种应用的解决方案
+categories: blog
 tags: [各种应用的解决方案]
 #description: 简单介绍本博客。
 ---
