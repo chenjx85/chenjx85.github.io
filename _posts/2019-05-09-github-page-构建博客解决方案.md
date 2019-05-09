@@ -25,32 +25,39 @@ tags: [各种应用的解决方案]
 
 4、到这一步，我们可以开始写博客啦，但是笔者还觉得github提供的模板不好看，要有自己的模板，那么开始折腾吧！不想折腾的同学到这里就可以不用看啦。
 
-5、选择一个好看的博客模板。笔者看了很多模板，最满意的是 [这个模板](https://www.cnfeat.com/)，模板的代码在 [这里](https://github.com/cnfeat/cnfeat.github.io)。 这个模板简洁又好看，而且_config.yml中写了详细的注释，对于笔者这种纯新手很友好。 同学们如果也喜欢这个模板的话，可以自己去下载。 下载好了模板之后，肯定要来修改成自己想要的样子啦。
+5、选择一个好看的博客模板。笔者看了很多模板，最满意的是 [这个模板](https://www.cnfeat.com/)，模板的代码在 [这里](https://github.com/cnfeat/cnfeat.github.io)。  
+这个模板简洁又好看，而且_config.yml中写了详细的注释，对于笔者这种纯新手很友好。  
+同学们如果也喜欢这个模板的话，可以自己去下载。  
+下载好了模板之后，肯定要来修改成自己想要的样子啦。
 
-6、说一下github page大概的运行逻辑。 我们提交_config.yml、html、md这些文件，推送到远程的服务器仓库上，github内置的jekyll程序会帮我们，利用这些提交的文件，生成html的静态页面。这些静态页面就是github page博客上看到的东西。 既然逻辑是这样的，那么我们就要根据jekyll的规则来写_config.yml和html、md这些文件。 
+6、说一下github page大概的运行逻辑。  
+我们提交_config.yml、html、md这些文件，推送到远程的服务器仓库上，github内置的jekyll程序会帮我们，利用这些提交的文件，生成html的静态页面。这些静态页面就是github page博客上看到的东西。  
+既然逻辑是这样的，那么我们就要根据jekyll的规则来写_config.yml和html、md这些文件。 
 
-7、说下模板文件夹里面的每个文件分别代表什么。
- ①同学们如果使用上面的这个模板，可以在_config,yml中看到详细的注释，标题啊、头图啊、浏览器小图标啊等等，这个跟着修改就可以了。
- jekyll会根据_config.yml中的说明来生成静态页面。
- _config.yml是全局的一些配置。
+7、说下模板文件夹里面的每个文件分别代表什么。  
+①同学们如果使用上面的这个模板，可以在_config,yml中看到详细的注释，标题啊、头图啊、浏览器小图标啊等等，这个跟着修改就可以了。  
+jekyll会根据_config.yml中的说明来生成静态页面。  
+_config.yml是全局的一些配置。
 
-②在根文件夹下还可以看到about、tags等等md文件，这些用markdown写成的文件对应的是博客中一个个的页面。
- 我们打开about.md这些md文件，可以看到最上面有title、description，这些对应的是博客中about页面的文字。
- 还有一个选项叫做layout，这个代表这个页面采用的布局。about.md中的layout是page。 
+②在根文件夹下还可以看到about、tags等等md文件，这些用markdown写成的文件对应的是博客中一个个的页面。  
+我们打开about.md这些md文件，可以看到最上面有title、description，这些对应的是博客中about页面的文字。  
+还有一个选项叫做layout，这个代表这个页面采用的布局。about.md中的layout是page。 
 
-③这个page的布局在_layouts文件夹里面，对应的是page.html。
- 文件夹中还有post.html，default.html这两个布局。
- 我们打开page.html，可以看到layout选项是default，也就是说，page这个布局是在default.html的基础上改的。
- post.html也是在default.html基础上改的。 
+③这个page的布局在_layouts文件夹里面，对应的是page.html。  
+文件夹中还有post.html，default.html这两个布局。  
+我们打开page.html，可以看到layout选项是default，也就是说，page这个布局是在default.html的基础上改的。  
+post.html也是在default.html基础上改的。 
 
-④_post文件夹放置的是自己的文章，也都是用markdown格式写的。
- 要写markdown，得有一个好用的编辑器。笔者今天尝试了几款编辑器，最终还是回到了visual code上。平时也是使用这一个编辑器。而且今天发现可以下载一个插件，实时地预览markdown写成的样子。
- 如下图，选择鼠标所在位置的插件，安装。github风格的编辑器！
+④_post文件夹放置的是自己的文章，也都是用markdown格式写的。  
+要写markdown，得有一个好用的编辑器。笔者今天尝试了几款编辑器，最终还是回到了visual code上。平时也是使用这一个编辑器。而且今天发现可以下载一个插件，实时地预览markdown写成的样子。  
+如下图，选择鼠标所在位置的插件，安装。github风格的编辑器！
+
 <center>
 <img src="https://upload-images.jianshu.io/upload_images/17769309-efe91cc97d1736fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
 </center>
 
- 安装完之后，点击右上角的按钮（自己找一下啦），就可以实时预览了，如下图。
+安装完之后，点击右上角的按钮（自己找一下啦），就可以实时预览了，如下图。
+
 <center>
 <img src="https://upload-images.jianshu.io/upload_images/17769309-5f6c3d36cf14b2f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="100%">
 </center>
@@ -65,16 +72,17 @@ tags: [各种应用的解决方案]
 8、说下markdown写作的一些方法。
  插入图片，markdown的语法是
 
-        ![](图片路径)
+    ![](图片路径)
+
 笔者最开始把图片包含在文件夹里面，推送到远程仓库，图片路径就写文件夹的相对路径，结果发现图片没有显示出来。
  后来分析了一下博客模板作者的博客，发现她把图片上传到简书了，取得一个外链之后，把外链地址当作图片路径写进去了，这样就可以显示图片。
  所以同学们也可以参照这个方法。
 
  图片想要居中和调整大小，笔者如下这样写就可以啦。
 
-        <center>
-        <img src="https://upload-images.jianshu.io/upload_images/17769309-2b71af7662530506.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
-        </center>
+    <center>
+    <img src="https://upload-images.jianshu.io/upload_images/17769309-2b71af7662530506.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
+    </center>
 
 非常简单。width也可以写成50px什么的，同学们自己根据需要调整。
 
